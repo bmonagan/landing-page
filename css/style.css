@@ -63,22 +63,26 @@ footer {
     display: flex;
     background-color: #1f2037;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
 
 }
-.Main-text {
-    color: #e5e7eb;
+.subheader .container{
+    border: none;
+    background-color: #1f2037;
+    justify-content: flex-start;
+    width: 50%;}
+.container .Main-text {
+    color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
     text-align: start
 }
-.Secondary-text {
+.container .Secondary-text {
     color: #e5e7eb;
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 18px;
     text-align: start
 }
 #camels {
-    width: 200px;
-    height: 150px;
+    object-fit: contain;
+    height: 200px;
 }
