@@ -38,7 +38,7 @@
   </g>
   
   <!-- Central monogram BKM -->
-  <text x="200" y="165" font-family="'Courier New', monospace" font-size="42" 
+  <text x="200" y="170" font-family="'Courier New', monospace" font-size="56" 
         font-weight="bold" fill="#e8e9f3" text-anchor="middle">BKM</text>
   
   <!-- Glowing effect on corners -->
@@ -52,17 +52,5 @@
     <circle cx="120" cy="210" r="4" fill="#9ca0c0">
       <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
     </circle>
-  </g>
-  
-  <!-- Name text -->
-  <text x="200" y="310" font-family="'Courier New', monospace" font-size="20" 
-        fill="#e8e9f3" text-anchor="middle" letter-spacing="3">BERNARD MONAGAN</text>
-  
-  <!-- Decorative corner elements -->
-  <g stroke="#4a4d6e" stroke-width="2" fill="none">
-    <polyline points="30,30 30,50 50,50"/>
-    <polyline points="370,30 370,50 350,50"/>
-    <polyline points="30,370 30,350 50,350"/>
-    <polyline points="370,370 370,350 350,350"/>
   </g>
 </svg>
