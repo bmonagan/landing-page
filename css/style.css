@@ -28,16 +28,33 @@ body {
 
     
 }
-header {
+header{
     display: flex;
     width: 100%;
     margin: 0 auto;
     color: #e5e7eb;
     background-color: #1f2037;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     flex-direction: row;
-
 }
+.headerLeft {
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.headerRight {
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+}
+
 header button {
     border: none;
     color: #e5e7eb;
@@ -101,4 +118,5 @@ footer {
     border-radius: 5px;
     text-align: center;
     padding: 4px;
+    cursor: pointer;
 }
