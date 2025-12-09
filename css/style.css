@@ -24,7 +24,6 @@ body {
     width: 100%;
     border: 1px solid darkblue;
     background-color: #9280c5;
-    justify-content: flex-start;
     flex-direction: column;
 
     
@@ -62,20 +61,24 @@ footer {
 .subheader {
     display: flex;
     background-color: #1f2037;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: row;
-
+    gap: 5px;
 }
-.subheader .container{
+.subheader .container {
     border: none;
     background-color: #1f2037;
-    justify-content: flex-start;
-    width: 50%;}
+    justify-content: start;
+    width: 50%;
+    margin: 0;
+    padding: 10px;
+}
 .container .Main-text {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
-    text-align: start
+    text-wrap: wrap;
 }
 .container .Secondary-text {
     color: #e5e7eb;
@@ -85,4 +88,14 @@ footer {
 #camels {
     object-fit: contain;
     height: 200px;
+}
+.signUp {
+    display: flex;
+    width: 12%;
+    margin: 0 auto;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    flex-direction: column;
+    border: 0px solid #e5e7eb;
+    border-radius: 5px;
 }
