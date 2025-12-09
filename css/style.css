@@ -1,0 +1,20 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+}
+
+.container {
+    display: flex;
+    width: 65%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid darkblue;
+    background-color: #9280c5;
+    justify-content: flex-start;
+    flex-direction: row;
+    border-radius: 5%;
+    gap: 5px;
+    
+    
+}
