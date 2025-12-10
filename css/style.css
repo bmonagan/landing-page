@@ -81,3 +81,25 @@ header button {
 .subheader-image {
     display: flex;
 }
+
+.Information { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+}
+.information-box {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.information-box .illustration-cube {
+    height: 100px;
+    width: 100px;
+    border: #3B82F6 4px solid;
+    border-radius: 5px;
+    list-style-type: none;
+    padding: 16px; 
+    margin: 0;
+}
