@@ -1,6 +1,8 @@
 body {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -45,5 +47,37 @@ header button {
 .subheader {
     display: flex;
     align-items: center;
+    background-color: #1F2937;
     gap: 16px;
+}
+
+.subheader-text {
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    margin-left: 96px;
+    flex-direction: column;
+}
+.subheader .Main-text {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+    color: #f9faf8;
+
+}
+.subheader .Secondary-text {
+    font-size: 18x;
+    margin: 0;
+    color: #e7e7eb;
+}
+.signUp  {
+    background-color: #3B82F6;
+    color: #f9faf8;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100px;
+    
+}
+.subheader-image {
+    display: flex;
 }
