@@ -2,7 +2,6 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   font-size: 16px;
-  line-height: 1.5;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -87,7 +86,13 @@ header button {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 32px;
+    margin-top: 14px;
+    margin-bottom: 36px;
+}
+.information-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
 }
 .information-box {
     display: flex;
@@ -96,12 +101,15 @@ header button {
 }
 
 .information-box .illustration-cube {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border: #3B82F6 4px solid;
-    gap: 48px;
-    border-radius: 5px;
-    padding: 16px; 
+    border-radius: 10px;
     margin: 0;
-    justify-content: flex-start;
+}
+.information-box .text {
+    color: #848586;
+    text-align: center;
+    text-wrap: wrap ;
+    max-width: 150px;
 }
