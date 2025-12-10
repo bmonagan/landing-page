@@ -19,6 +19,14 @@ header {
     background-color: #1F2937;
 }
 
+.logo-text {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 16px;
+    gap: 50px;
+}
+
 .subheader {
     display: flex;
     align-items: center;
