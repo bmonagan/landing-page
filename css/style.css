@@ -17,6 +17,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
+    align-items: center;
 }
 
 .logo-text {
@@ -25,6 +26,20 @@ header {
     font-weight: 700;
     margin-left: 16px;
     gap: 50px;
+    margin: 14px;
+}
+.button-container{
+    margin-right: 48px;
+    gap: 12px;
+    justify-content: flex-end;
+}
+header button {
+    font-size: 18px;
+    text-decoration: none;
+    color: #f9faf8;
+    background-color: #1F2937;
+    outline: none;
+    border: none;
 }
 
 .subheader {
