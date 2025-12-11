@@ -19,8 +19,8 @@ header {
     justify-content: space-between;
     background-color: #1F2937;
     align-items: center;
+    padding: 0px 16px;
 }
-
 .logo-text {
     color: #f9faf8;
     font-size: 24px;
@@ -29,7 +29,8 @@ header {
     margin: 14px;
 }
 .button-container{
-    margin-right: 48px;
+    margin-right: 16px;
+    align-items: center;
     gap: 12px;
     justify-content: flex-end;
 }
@@ -55,8 +56,8 @@ header button {
     display: flex;
     justify-content: center;
     max-width: 600px;
-    margin-left: 96px;
     flex-direction: column;
+    text-wrap: wrap;
 }
 .subheader .Main-text {
     font-size: 48px;
