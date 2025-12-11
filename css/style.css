@@ -113,3 +113,31 @@ header button {
     text-wrap: wrap ;
     max-width: 150px;
 }
+
+.quotation-area {
+    background-color: #E5E7Eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    gap: 24px;
+}
+.quotation-area .quote {    
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    text-align: left;
+    max-width: 900px;
+}
+.quotation-area .attribution {
+    font-size: 24px;
+    font-weight: 300;
+    color: #1F2937;
+    text-align: right;
+    max-width: 900px;
+    align-self: center;
+    margin-right: 24px;
+    max-width: 900px;
+}
